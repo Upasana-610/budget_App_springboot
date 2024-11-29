@@ -22,6 +22,16 @@ BudgetBakers SpringBoot is a web application built with Spring Boot, Thymeleaf, 
 
 ## Getting Started
 
+### Temporarily set Java version to 17 using git bash commands:
+
+(Provided Java 17 is installed in system)
+
+```bash
+export JAVA_HOME="C:\Program Files\Java\jdk-17"
+export PATH=$JAVA_HOME/bin:$PATH
+java -version
+```
+
 To get a local copy of the project up and running, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your-username/BudgetBakers-SpringBoot.git`
@@ -30,10 +40,8 @@ To get a local copy of the project up and running, follow these steps:
 4. Run the application: `mvn spring-boot:run`
 5. Open your web browser and navigate to `http://localhost:8080`
 
-## Contributing
-
-Only Exavalu Intern Team has access.
-
 ## License
 
 This project is licensed under the [APACHE License](LICENSE).
+
+Remove formatting errors
